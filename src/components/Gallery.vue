@@ -18,7 +18,6 @@
       </template>
     </div>
     <b-modal id="modal-1" size="lg" title="Editor">
-      
       <Editor :imgToEdit="imgToEdit" />
     </b-modal>
   </div>

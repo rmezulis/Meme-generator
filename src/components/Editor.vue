@@ -41,10 +41,6 @@ export default {
   props: ["imgToEdit"],
   data: function() {
     return {
-      width: 0,
-      height: 0,
-      x: 0,
-      y: 0,
       inputAmount: 1,
       inputs: [
         {
