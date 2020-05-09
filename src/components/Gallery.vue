@@ -17,7 +17,7 @@
         />
       </template>
     </div>
-    <b-modal id="modal-1" size="lg" title="Editor">
+    <b-modal v-slot:modal-footer="{ }" id="modal-1" size="lg" title="Editor">
       <Editor :imgToEdit="imgToEdit" />
     </b-modal>
   </div>

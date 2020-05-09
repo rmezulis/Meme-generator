@@ -80,11 +80,10 @@ export default {
     },
     addInput() {
       this.inputs.push({
-        id: this.inputAmount,
+        id: this.inputAmount++,
         message: "Insert your text",
         fontSize: 15
       });
-      this.inputAmount++;
     }
   }
 };
