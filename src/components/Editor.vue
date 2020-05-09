@@ -14,7 +14,7 @@
         <label :for="input.id" class="row">Enter your text:</label>
         <input :id="input.id" class="row" v-model="input.message" placeholder="Type here" />
         <p class="row">Font size:</p>
-        <vue-slider class="row" v-model="input.FontSize"></vue-slider>
+        <vue-slider class="row" v-model="input.fontSize"></vue-slider>
       </div>
       
       <div class="color-picker row">
@@ -99,6 +99,9 @@ export default {
   align-content: left;
 }
 
-p {
+@media(max-width: 1000px) {
+  .editor {
+    flex-direction: column;
+  }
 }
 </style>
